@@ -1,1 +1,24 @@
-f
+Linux Long Challenges
+For it I used kali linux in virtual box.
+1)Who uses the computer?
+  I searched in google about where to find the list of users in linux. It says that opening passwd file will give the required details and that non root users have non ZERO UUID.
+2)Password Check and 3)Browsing the interwebs
+  All the logs were in messages file along with the time.
+4)Deleting the browser history
+  It is stored in .sqlite3 format in the folder of firefox.
+5)Say my name
+  There is special command in linux to know about UUID of the user and it is also stored in some file.
+
+ELF
+1)Say my name
+  First I thougth of opening the .bin file but I didn't find any way. So I opened it in Text viewer and I found the flag.
+
+Steganography
+1)Strange image
+  I tried steghide and stegosuite to decode the hidden message but it didn't work. I also tried online decodeers and tried many others things but none of them worked. Then finally I opened it in text editor and searched for the flag and it worked.
+2)Boom Boom
+  Steghide worked for it.
+
+Misc
+1)Does this ever end?
+  I tried to open it again and again but it didn't worked.
